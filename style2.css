@@ -1,0 +1,166 @@
+.c2{
+    border: 2px solid black;
+    border-radius: 13px;
+    height: 150px;
+}
+.page2{
+    margin-top: 10%;
+}
+.course{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 2fr 2fr ;
+    padding:4%;
+}
+.page2 h1 {
+    text-align: center;
+    color: white;
+}
+.page2 a,button{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+.page2 h3,p{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+    color: white;
+    
+}
+.course button{
+    text-align: center;
+    align-items: center;
+    color: rgb(240, 38, 55);
+}
+button {
+    box-shadow: black;
+   
+    text-align: center;
+    border-radius: 11px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+    text-transform:capitalize;
+    padding: 5px;
+    font-size: 1rem;
+}
+.page2 a:hover{
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background: black;
+}
+@media(max-width: 571px){
+    .c2{
+        height: 180px;
+    }
+}
+@media(max-width: 458px){
+    .course{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+#c21{
+    background: url(img/biotech.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c22{
+    background: url(img/chemical.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c23{
+    background: url(img/chemistry.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c24{
+    background: url(img/civil.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c25{
+    background: url(img/computer.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c26{
+    background: url(img/ece.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c27{
+    background: url(img/electric.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c28{
+    background: url(img/social.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c29{
+    background: url(img/math.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c210{
+    background: url(img/mech.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c211{
+    background: url(img/metal.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c212{
+    background: url(img/pe.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c213{
+    background: url(img/physics.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c214{
+    background: url(img/management.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

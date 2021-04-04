@@ -1,0 +1,67 @@
+.about h3{
+     text-align: center;
+     color: white;
+     padding: 2%;
+     font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+}
+.part{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 2fr 12fr;
+}
+.icon img{
+    border-radius: 133px;
+    width:70%;
+    margin-top: 12%;
+    float: right;
+   }
+@media(max-width: 458px){
+    .part{
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: 1fr;
+    }
+    .icon img{
+        border-radius: 133px;
+        width:70%;
+        float: left;
+        }
+}
+
+.about p{
+    text-align: center;
+}
+.bnk{
+    font-size: 2.1rem;
+    animation-name: an;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes an{
+    0%{
+        color: white;
+    }
+    
+    50%{
+        color: rgba(245, 217, 6, 0.945);
+    }
+
+}
+.foot{
+    background: #107347;
+    height: 10%;
+}
+.footin{
+    background: white;
+    height: 15%;
+}
+.foot h4{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+    text-align: right;
+}

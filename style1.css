@@ -1,0 +1,134 @@
+.page1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+    color: white;
+    position: relative;
+    top: 180px;
+    text-align: center;
+    background: rgba(19, 40, 47, 0.54);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 400px;
+    padding: 33px;
+    border-radius: 13px;
+}
+
+.page1 .main-head{
+    animation: main-head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    font-weight: bold;
+}
+@keyframes main-head{
+    0%{color: #104973;}
+    80%{color: white;}
+}
+.some-links{
+    display: block;
+    padding: 40px;
+    display: grid;
+    grid-gap: 13px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+.some-links1{
+    display: none;
+}
+.some-links h4{
+    text-align: center;
+    font-weight: 1000;
+    padding: 18%;
+    color: black;
+}
+.some-links h4:hover{
+    color: white;
+}
+
+@media (max-width: 845px) {
+    .some-links{
+        display: none;
+       }
+    .some-links1{
+     display: block;
+     width: 69%;
+    margin-left: 15%;
+    display: grid;
+    grid-gap: 13px;
+   }
+   .some-links1 h4{
+    text-align: center;
+    font-weight: 1000;
+    padding: 18%;
+    color: black;
+ }
+   .page1{
+       height: 165vh;
+    }
+   .bg{
+       height: 200%;
+   }
+ }
+
+ 
+.c1{
+    border-radius: 20px;
+    height: 150px;
+}
+#c1{
+    background: url(img/library\ -\ Copy.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c1:hover{
+    background: url(img/library.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#c2{
+    background: url(img/college\ -\ Copy.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c2:hover{
+    background: url(img/college.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#c3{
+    background: url(img/lms\ -\ Copy.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c3:hover{
+    background: url(img/lms.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c4{
+    background: url(img/wsde-copy.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#c4:hover{
+    background: url(img/wsdc.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
